@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  font-family: poppins;
+  letter-spacing: 0.5px;
+}
+
+.navbar{
+  background-color: rgba(238, 90, 36,1.0);
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 80%;
+  border-radius: 5px;
+
+}
+
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+.navbar ul li{
+  display: inline-block;
+  margin-right: 15px;
+  
+}
+
+.navbar ul li:first-child{
+  margin-left: 10px;
+}
+
+.navbar ul li a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0 3px;
+}
+
+.navbar a:after{
+  content: "";
+  width: 10%;
+  color: white;
+  height: 3px;
+  position: absolute;
+  background-color: white;
+  left: 0;
+  bottom: -5px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.navbar a:hover:after{
+  width: 100%;
+}
+
+
+/*navbar 2*/
+
+
+.navbar2{
+ /* background-color: rgba(238, 90, 36,1.0);*/
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+.navbar2 ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+.navbar2 ul li{
+  display: inline-block;
+  margin-right: 15px;
+  
+}
+
+.navbar2 ul li:first-child{
+  margin-left: 10px;
+}
+
+.navbar2 ul li a{
+  position: relative;
+  text-decoration: none;
+  color: rgba(87, 96, 111,1.0);
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0 3px;
+}
+
+.navbar2 a:after{
+  content: "";
+  width: 7%;
+  color: white;
+  height: 3px;
+  position: absolute;
+  background-color: rgba(87, 96, 111,1.0);
+  left: 0;
+  bottom: -5px;
+  border-radius: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar2 a:hover:after{
+  width: 100%;
+
+}
+
+.navbar2 a:hover{
+  color: black;
+}
